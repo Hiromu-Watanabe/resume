@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://Hiromu-Watanabe@github.com/Hiromu-Watanabe/resume.git",
+  "author": "hiromu watanabe <hiromu.watanabe0729@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "textlint . && markdownlint docs/*.md",
+    "build:pdf": "md-to-pdf docs/${YOUR_RESUME}.md --config-file ./pdf-configs/config.js"
+  },
+  "devDependencies": {
+    "@proofdict/textlint-rule-proofdict": "^3.1.2",
+    "@textlint-ja/textlint-rule-no-dropping-i": "^2.0.1",
+    "markdownlint-cli": "^0.33.0",
+    "md-to-pdf": "^5.2.3",
+    "textlint": "^13.3.1",
+    "textlint-filter-rule-comments": "^1.2.2",
+    "textlint-rule-ja-space-around-link": "^2.2.0",
+    "textlint-rule-no-doubled-joshi": "^4.0.3",
+    "textlint-rule-no-dropping-the-ra": "^3.0.0",
+    "textlint-rule-preset-ja-spacing": "^2.3.0",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
+    "textlint-rule-rousseau": "^1.4.8"
+  }
+}
