@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "textlint . && markdownlint docs/*.md",
-    "build:pdf": "md-to-pdf docs/${YOUR_RESUME}.md --config-file ./pdf-configs/config.js"
+    "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
   },
   "devDependencies": {
     "@proofdict/textlint-rule-proofdict": "^3.1.2",
